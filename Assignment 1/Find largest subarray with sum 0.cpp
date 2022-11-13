@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//Based on Prefix sumg
 vector<int> largestSubarraySumZero(int n, vector<int> arr){
     int preSum = 0;
     int maxi = 0,ind = -1;
